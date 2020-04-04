@@ -1,0 +1,9 @@
+@import "../../../../variables.scss";
+
+.books {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: $cream;
+    padding: 10px;
+}

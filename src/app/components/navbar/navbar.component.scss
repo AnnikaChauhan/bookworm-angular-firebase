@@ -1,0 +1,14 @@
+@import "../../../variables.scss";
+
+nav {
+    background-color: $dark-green;
+    color: $white;
+    height: 100vh;
+    width: 20vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+}

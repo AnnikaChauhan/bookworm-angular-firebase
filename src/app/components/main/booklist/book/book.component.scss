@@ -1,0 +1,22 @@
+@import "../../../../../variables.scss";
+
+.book {
+    border: 5px solid $orange;
+    background-color: $green;
+    color: $white;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+
+    img {
+        height: 100%;
+    }
+
+    div {
+        padding-left: 25px;
+    }
+
+}

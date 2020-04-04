@@ -1,0 +1,13 @@
+@import "../../../variables.scss";
+
+main {
+    color: $dark-green;
+    width: 80vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    main {
+        width: 100vw;
+    }
+}
