@@ -1,4 +1,14 @@
-# BookwormAngularFirebase
+# BookWorm | Angular
+This was the first project built alone in Angular. It is an Angular App with a Firebase backend attached - all data is currently static but the intension is to add a proper firebase database once I have learnt more about Angular.
+
+This app was build in Angular. To install packages, please type 'yarn install' into the terminal. For Angular instructions see [here](https://angular.io/) or below instructions.
+
+This app is available [here](https://bookworm-angular.web.app/).
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## BookwormAngularFirebase
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 

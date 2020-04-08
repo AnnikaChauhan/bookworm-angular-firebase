@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+    firebase: {
+      apiKey: "AIzaSyC6h7Ip8auUF5z1YJDyPAxiU7n0LlYYhTc",
+      authDomain: "bookworm-angular.firebaseapp.com",
+      databaseURL: "https://bookworm-angular.firebaseio.com",
+      projectId: "bookworm-angular",
+      storageBucket: "bookworm-angular.appspot.com",
+      messagingSenderId: "239717745309",
+      appId: "1:239717745309:web:46637ff7bcb013f01f8a74"
+    }
 };
 
 /*

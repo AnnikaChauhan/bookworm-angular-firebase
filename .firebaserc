@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "bookworm-angular": {
+      "hosting": {
+        "bookworm-angular-firebase": [
+          "bookworm-angular"
+        ]
+      }
+    }
+  }
+}

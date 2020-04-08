@@ -121,8 +121,13 @@
               "devServerTarget": "bookworm-angular-firebase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "bookworm-angular-firebase"
 }

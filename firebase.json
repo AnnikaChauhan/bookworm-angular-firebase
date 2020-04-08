@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "bookworm-angular-firebase",
+      "public": "dist/bookworm-angular-firebase",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

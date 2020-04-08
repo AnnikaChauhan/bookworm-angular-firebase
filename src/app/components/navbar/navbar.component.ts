@@ -8,12 +8,12 @@ import { books, IBook } from "src/assets/data/books";
 })
 export class NavbarComponent implements OnInit {
   @Input() books: IBook;
-  numberOfBooks: string;
+  numberOfBooks: number;
 
   constructor() { }
 
   ngOnInit() {
-    // this.numberOfBooks = `There are ${this.books.length} books in this library`;
+    //this.numberOfBooks = this.books;
     console.log(this.books);
   }
 
